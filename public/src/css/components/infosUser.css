@@ -1,0 +1,47 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid var(--green);
+}
+
+.main__img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.main__infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__name, .main__description {
+    margin-top: var(--mb-2);
+}
+
+.main__name {
+    font-size: var(--h2-font-size);
+}
+
+.main__role {
+    color: var(--green);
+    margin-top: 0.3rem;
+}
+
+.main__description {
+    width: 80%;
+    text-align: center;
+}
+
+@media screen and (min-width: 528px) {
+    .main__description {
+        width: 50%;
+    }
+}

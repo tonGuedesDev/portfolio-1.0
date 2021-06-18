@@ -1,0 +1,36 @@
+:root {  
+
+    /*===== COLORS =====*/
+    --primary-color: rgb(55, 32, 109);
+    --background: #121214;
+    --text-color: #E1E1E6;
+    --green: #04D361;
+
+    /*===== Font and typography =====*/
+    --body-font: 'Roboto', sans-serif;
+    --biggest-font-size: 2.5rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    /*===== MARGENES =====*/
+    --mb-1: .5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+    
+    /*===== Z INDEX =====*/
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+
+}
+
+.gap {
+    margin-top: 50px;
+}

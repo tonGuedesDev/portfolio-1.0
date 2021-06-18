@@ -1,0 +1,16 @@
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: var(--mb-2);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+}
+
+.header__logo span {
+    font-size: var(--h2-font-size);
+}
+
+.header__menu {
+    margin-right: var(--mb-1);
+}

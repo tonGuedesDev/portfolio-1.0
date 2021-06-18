@@ -1,0 +1,24 @@
+{% extends "layout.njk" %}
+
+{% block title %}
+<title>Portfolio - sobre</title>
+{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="/src/css/components/infosUser.css"> 
+{% endblock %}
+
+{% block content %}
+<main class="main wrapper">
+    <div class="main__circle">
+        <img src="{{ about.image }}" alt="" class="main__img">
+    </div>
+
+    <div class="main__infos">
+        <h1 class="main__name">{{ about.name }}</h1>
+        <h2 class="main__role">{{ about.role }}</h2>
+        <p class="main__description">{{ about.description }}</p>
+    </div>
+</main>
+{% endblock %}
+ 

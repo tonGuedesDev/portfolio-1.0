@@ -1,0 +1,33 @@
+
+.footer {
+    margin-top: var(--mb-5);
+}
+
+.footer__container {
+    text-align: center;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--mb-2);
+}
+
+.footer__icons svg {
+    width: 1.5rem;
+}
+
+.footer__icons svg:hover {
+    color: var(--green);
+}
+
+.bi-facebook {
+    margin: 0 var(--mb-2);
+}
+
+.footer__copy {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+

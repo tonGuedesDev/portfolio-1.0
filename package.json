@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-1.0",
+  "version": "1.0.0",
+  "description": "Esse projeto está sendo desenvolvido a parti dos estudos do curso lauchbase da rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonGuedesDev/portfolio-1.0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonGuedesDev/portfolio-1.0/issues"
+  },
+  "homepage": "https://github.com/tonGuedesDev/portfolio-1.0#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "nunjucks": "^3.2.3"
+  }
+}

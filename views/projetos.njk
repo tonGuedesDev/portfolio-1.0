@@ -1,0 +1,50 @@
+{% extends "layout.njk" %}
+
+{% block title %}
+<title>Portfolio - Projetos</title>
+{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="/src/css/components/cards.css"> 
+{% endblock %}
+
+{% block content %}
+<main class="main wrapper">
+        <h1 class="main__title">Projetos</h1>
+            <section class="cards">
+                {% for card in cards %}
+                <!-- CARD -->
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="{{ card.image }}" alt="Imagem de {{ card.title }}">
+                    </div>
+
+                    <div class="card__content">
+                        <p class="card__title">{{ card.title }}</p>
+                    </div>
+
+                    <div class="card__info">
+                        <div class="card__resume">
+                            <p>{{ card.description }}</p>
+                        </div>
+                    </div>
+
+                    <div class="card__description">
+                        <span class="card__pages">{{ card.language }}</span>
+                        <span class="card__status">Concluído</span>
+                    </div>
+
+                    {% if card.status %}
+                        <div class="card__button">
+                            <a href="#">DEMO</a>
+                        </div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </section>
+            <!-- END CARD -->
+            
+    </main>
+
+{% endblock %}
